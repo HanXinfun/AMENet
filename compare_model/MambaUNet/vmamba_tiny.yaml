@@ -1,0 +1,17 @@
+# MODEL:
+#   TYPE: vssm
+#   NAME: vssm_tiny
+#   DROP_PATH_RATE: 0.2
+#   PRETRAIN_CKPT: "/public/data/hxx/SSRS/FTransUNet/compare_model/MambaUNet/vmamba_tiny_e292.pth"
+#   VSSM:
+#     EMBED_DIM: 96
+#     DEPTHS: [ 2, 2, 2, 2 ]
+
+MODEL:
+  TYPE: vssm
+  NAME: vssm_base
+  DROP_PATH_RATE: 0.6
+  PRETRAIN_CKPT: "/public/data/hxx/SSRS/FTransUNet/compare_model/MambaUNet/vmamba_base_224.pth"
+  VSSM:
+    EMBED_DIM: 128
+    DEPTHS: [ 2, 2, 15, 2 ]

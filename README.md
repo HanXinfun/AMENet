@@ -1,7 +1,7 @@
 # AMENet and CBLS-RGB-DEM dataset
 
 ## AMENet
-<img width="512" alt="image" src="AMENet.png">
+<img width="2048" alt="image" src="AMENet.png">
 
 ## CBLS-RGB-DEM dataset
 You can use **CBLS-RGB-DEM dataset** in the **https://github.com/HanXinfun/CBLS-RGB-DEM**,
